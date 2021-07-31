@@ -1,2 +1,3 @@
 # Codewars Katas
-A collection of code wars solutions. I aim to push everyday. Started 31st July 2021.
+A collection of my code wars kata solutions. I aim to push 6 days a week.
+
