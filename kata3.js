@@ -27,7 +27,7 @@ function printerError(s) {
 
 // Best solution:
 
-function printerError(s) {
+function examplePrinterError(s) {
     return s.match(/[^a-m]/g).length + "/" + s.length;
 }
 

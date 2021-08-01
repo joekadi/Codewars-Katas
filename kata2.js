@@ -36,6 +36,6 @@ function sum_digits(numbers){
 
 // Best solution:
 
-function digital_root(n) {
+function example_digital_root(n) {
     return (n - 1) % 9 + 1;
   }
