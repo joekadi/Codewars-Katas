@@ -13,6 +13,7 @@ Well, you may have guessed it by now, but to be clear: you need to create a fibo
 Signature will always contain 3 numbers; n will always be a non-negative number; if n == 0, then return an empty array (except in C return NULL) and be ready for anything else which is not clearly specified ;)
  */
 
+
 //My solution:
 
 function tribonacci(signature,n){
@@ -26,8 +27,7 @@ function tribonacci(signature,n){
       }
       return signature
     }
-  
-  }
+}
   
 function sum(arr){
     return arr.reduce((a, b) => a + b, 0)
@@ -40,5 +40,5 @@ function sol_tribonacci(signature,n){
       signature.push(signature[i] + signature[i+1] + signature[i+2]); // add last 3 array items and push to trib
     }
     return signature.slice(0, n); //return trib - length of n
-  }
+}
 
